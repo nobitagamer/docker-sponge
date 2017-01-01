@@ -7,8 +7,8 @@ services:
             - "MINECRAFT_PORT:25566"
             - "MINECRAFT_EULA:true"
             - "MINECRAFT_MAXHEAP:1024M"
-            - "FORGE_VERSION:1.8.9-11.15.1.1890-1.8.9"
-            - "SPONGE_VERSION:1.8.9-1890-4.2.0-BETA-1402"
+            - "FORGE_VERSION:1.10.2-12.18.2.2171"
+            - "SPONGE_VERSION:1.10.2-2171-5.1.0-BETA-2010"
         expose:
             - "25566"
         ports:
