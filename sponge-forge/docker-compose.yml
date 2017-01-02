@@ -1,12 +1,12 @@
 version: '2'
 services:
     sponge_forge:
-        image: mmonkey/sponge-forge
+        image: nobitagamer/sponge-forge
         container_name: forge
         environment:
             - "MINECRAFT_PORT:25566"
             - "MINECRAFT_EULA:true"
-            - "MINECRAFT_MAXHEAP:1024M"
+            - "MINECRAFT_MAXHEAP:4096M"
             - "FORGE_VERSION:1.10.2-12.18.2.2171"
             - "SPONGE_VERSION:1.10.2-2171-5.1.0-BETA-2010"
         expose:
